@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 235, 222);
+    color: rgb(30, 59, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+html, 
+body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: rgb(30, 59, 56);
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgb(94, 148, 124);
+    height: 7%;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-article{
+    font-size: 32px;
+    text-align: center;
+}
+
+.block{
+    background-color: cadetblue;
+    width: 100%;
+    height: 10px;
+}
+
+.img{
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+.firstSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+
+.firstSection > article:nth-child(1){
+    width: 50%;
+}
+
+.firstSection > article:nth-child(2){
+    width: 50%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav > a{
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 86%;
+}
+
+.main > section{
+    width: 45%;
+    padding-bottom: 17px;
+    padding-top: 17px;
+} 
+
+.main > section:nth-child(even){
+    padding-left: 10%;
+ } 
+
+.footer{
+    background-color: rgb(94, 148, 124);
+    height: 7%;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.footer > div > a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer > div > img{
+    float: right;
+  
+}
+
